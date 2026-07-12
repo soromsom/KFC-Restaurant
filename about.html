@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>About Us</title>
+	<link rel="stylesheet" href="main.css">
+	<style>
+		.team { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; }
+		.team-member img { width:100%; height:160px; object-fit:contain; object-position:center; border-radius:8px; background:#f7f7f7; }
+		.muted { color:#666; }
+	</style>
+</head>
+<body>
+	<main class="container">
+		<header class="about-hero">
+			<h1>About Us</h1>
+			<p class="muted">We serve great food crafted with care — simple, honest, and delicious.</p>
+		</header>
+
+		<section aria-labelledby="story">
+			<h2 id="story">Our Story</h2>
+			<p>Founded by a small team of food lovers, we started with a single idea: make fresh, flavorful dishes that bring people together. We focus on quality ingredients and friendly service.</p>
+		</section>
+
+		<section aria-labelledby="mission">
+			<h2 id="mission">Our Mission</h2>
+			<p class="muted">To create memorable meals using thoughtfully sourced ingredients while supporting our local community.</p>
+		</section>
+
+		<section aria-labelledby="team">
+			<h2 id="team">Team</h2>
+			<div class="team">
+				<article class="team-member">
+					<img src="img/chef.jpg" alt="Chef portrait">
+					<h3>Head Chef</h3>
+					<p class="muted">Leads the kitchen and crafts our seasonal menu.</p>
+				</article>
+				<article class="team-member">
+					<img src="img/manager.jpg" alt="Manager portrait">
+					<h3>General Manager</h3>
+					<p class="muted">Oversees operations and guest experience.</p>
+				</article>
+				<article class="team-member">
+					<img src="img/founder.jpg" alt="Founder portrait">
+					<h3>Founder</h3>
+					<p class="muted">Founded the place with a love for great food.</p>
+				</article>
+			</div>
+		</section>
+
+		<section aria-labelledby="contact">
+			<h2 id="contact">Contact</h2>
+			<p class="muted">Questions or catering inquiries? Email us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+		</section>
+
+		<footer style="margin-top:28px; text-align:center;" aria-label="site footer">
+			<p class="muted">Back to <a href="index.html">Home</a> — view the <a href="menu.html">Menu</a>.</p>
+		</footer>
+	</main>
+</body>
+</html>

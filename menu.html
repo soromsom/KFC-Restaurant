@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            .menu-grid {
+                display: grid;
+                gap: 20px;
+                grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            }
+
+            .menu-item {
+                border: 1px solid #e0e0e0;
+                padding: 16px;
+                border-radius: 8px;
+                background: #fafafa;
+            }
+
+            .item-image {
+                width: 100%;
+                height: 160px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 6px;
+                margin-bottom: 12px;
+                display: block;
+            }
+
+            .section-heading {
+                margin: 0 0 12px;
+                font-size: 1.4rem;
+                grid-column: 1 / -1;
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main class="container">
+            <header class="menu-header">
+                <h1>Our Menu</h1>
+                <p>Explore our selection of delicious dishes and specials.</p>
+            </header>
+
+            <!-- Top menu image removed as requested -->
+
+            <section id="menu" class="menu-grid">
+                <h2 class="section-heading">Menu</h2>
+
+                <article class="menu-item">
+                    <img src="img/kenturkey-fried-chicken.jpg" alt="Kenturkey Fried Chicken" class="item-image">
+                    <h3>Kenturkey Fried Chicken</h3>
+                    <p>Deliciously crispy fried chicken with our signature seasoning.</p>
+                    <strong>$9.50</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/fried-chicken-and-sandwich.jpg" alt="Fried Chicken and Sandwich" class="item-image">
+                    <h3>Fried Chicken and Sandwich</h3>
+                    <p>Delicious fried chicken served on a cripy waffle with your choice of sides.</p>
+                    <strong>$11.00</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/donut-sandwich.jpg" alt="Donut Sandwich" class="item-image">
+                    <h3>Donut Sandwich</h3>
+                    <p>A cruncy Chicken patty served in a sweet donut bun.</p>
+                    <strong>$12.00</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/grilled-chicken.jpg" alt="Grilled Chicken Salad" class="item-image">
+                    <h3>Grilled Chicken Salad</h3>
+                    <p>Mixed greens, grilled chicken, avocado, and citrus vinaigrette.</p>
+                    <strong>$13.75</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/classic-burger.jpg" alt="Classic Burger" class="item-image">
+                    <h3>Classic Burger</h3>
+                    <p>Beef patty with cheese, lettuce, tomato, and fries on the side.</p>
+                    <strong>$14.25</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/mack-and-cheese.jpg" alt="Mac and Cheese" class="item-image">
+                    <h3>Mac and Cheese</h3>
+                    <p>Creamy baked macaroni and cheese with a golden breadcrumb topping.</p>
+                    <strong>$8.50</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/pizza.jpg" alt="Pizza" class="item-image">
+                    <h3>Pizza</h3>
+                    <p>Classic margherita pizza with tomato sauce and fresh mozzarella.</p>
+                    <strong>$16.50</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/potato-wedges.jpg" alt="Potato Wedges" class="item-image">
+                    <h3>Potato Wedges</h3>
+                    <p>Crispy golden potato wedges seasoned with herbs and spices.</p>
+                    <strong>$4.95</strong>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/chicken-wraps.jpg" alt="Chicken Wraps" class="item-image">
+                    <h3>Chicken Wraps</h3>
+                    <p>Grilled chicken wrapped in a soft tortilla with fresh vegetables.</p>
+                    <strong>$8.95</strong>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
